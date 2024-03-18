@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button {}
+
+.input {}
+
+.label {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 0;
+}
+
+.todoList {
+  text-align: center;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
